@@ -33,3 +33,16 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+# Proteres secrets and generated files
+.private/
+.env
+*.env
+!.env.example
+.dart_tool/
+.flutter-plugins-dependencies
+mobile/android/key.properties
+mobile/android/local.properties
+mobile/build/
+backend/bin/
+web/release.json
